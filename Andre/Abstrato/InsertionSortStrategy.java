@@ -1,5 +1,6 @@
 // Checa se os números estão em ordem crescente. Quando encontra um número menor que o anterior, troca-os de lugar até que estejam em ordem.
-public class InsertionSortStrategy {
+public class InsertionSortStrategy extends SortStrategy {
+    @Override
     public void sort(int[] data) {
         int n = data.length;
         for (int i = 1; i < n; i++) {
